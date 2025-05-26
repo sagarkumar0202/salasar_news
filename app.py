@@ -1,14 +1,14 @@
 import streamlit as st
-from streamlit_player import st_player
+#from streamlit_player import st_player
 
 #st.title('Salasar News')
 
 # Sample video dictionary (replace with your video data)
 DEFAULT_WIDTH = 80
 videos = {
-    "Video 1": "https://youtu.be/Bm5BL_AzhB0?si=XeoPq9BfoiRgzH_4",
-    "Video 2": "https://youtu.be/SH6CM8J62rw?si=R6FIKlhY0pYalEo5",
-    "Video 3": "https://youtu.be/ts4GIKcB1B8?si=ELRg6Wls-p3wDuD6",
+    "Video 1": "https://youtu.be/ts4GIKcB1B8?si=ELRg6Wls-p3wDuD6",
+    "Video 2": "https://youtu.be/Bm5BL_AzhB0?si=XeoPq9BfoiRgzH_4",
+    "Video 3": "https://youtu.be/SH6CM8J62rw?si=R6FIKlhY0pYalEo5",
     "Video 4": "https://youtu.be/5laj9ytQPQ8?si=81urG-Aw41b0kQYQ",
     "Video 5": "https://youtu.be/iEpqNw15GNk?si=ThnM3z1vQsH7LwsZ",
     "Video 6": "https://youtu.be/2lONW_4wL8c?si=vPrABqjSGv02p7pf"
